@@ -2,6 +2,8 @@ package com.xuecheng.content.model.dto;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @author Mr.M
  * @version 1.0
@@ -9,7 +11,7 @@ import lombok.Data;
  * @date 2022/10/7 16:08
  */
 @Data
-public class QueryCourseParamsDto {
+public class QueryCourseParamsDto implements Serializable {
 
     //审核状态
     private String auditStatus;
